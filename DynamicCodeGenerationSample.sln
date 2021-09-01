@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicCodeGenerationSample", "DynamicCodeGenerationSample\DynamicCodeGenerationSample.csproj", "{3900F0B1-22C5-42AB-9D15-C09558998753}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{7E520B6A-BF64-47C5-95A8-4A7140C5B700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3900F0B1-22C5-42AB-9D15-C09558998753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3900F0B1-22C5-42AB-9D15-C09558998753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3900F0B1-22C5-42AB-9D15-C09558998753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3900F0B1-22C5-42AB-9D15-C09558998753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E520B6A-BF64-47C5-95A8-4A7140C5B700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E520B6A-BF64-47C5-95A8-4A7140C5B700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E520B6A-BF64-47C5-95A8-4A7140C5B700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E520B6A-BF64-47C5-95A8-4A7140C5B700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E75C1CAE-F2C3-4657-8B20-224A6DC1BF7B}
+	EndGlobalSection
+EndGlobal
