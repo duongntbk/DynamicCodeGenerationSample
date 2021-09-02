@@ -84,6 +84,12 @@ namespace Benchmark
             }
 
             il.EmitCall(OpCodes.Call, _methodInfo, null);
+
+            if (_methodInfo.ReturnType.IsValueType)
+            {
+                il.Emit(OpCodes.Box, _methodInfo.ReturnType);
+            }
+
             il.Emit(OpCodes.Ret);
 
             _delegate = (Func<object, object[], object>)dynInk.CreateDelegate(typeof(Func<object, object[], object>));

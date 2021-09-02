@@ -117,6 +117,12 @@ namespace DynamicCodeGenerationSample
             }
 
             il.EmitCall(OpCodes.Call, methodInfo, null);
+
+            if(methodInfo.ReturnType.IsValueType)
+            {
+                il.Emit(OpCodes.Box, methodInfo.ReturnType);
+            }
+
             il.Emit(OpCodes.Ret);
 
             var inkDelegate = (Func<object, object[], object>)dynInk
